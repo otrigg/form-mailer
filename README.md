@@ -94,7 +94,7 @@ don't forget to add a slash at the end of nice URLs if your server uses it, i.e.
 Add a list of email addresses where the forms will be sent:
 ```php
     'recipients' => [
-        'admin@€xample.com',
+        'admin@example.com',
         'info@commercial.com',
         ...
     ],
