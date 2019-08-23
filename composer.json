@@ -1,0 +1,32 @@
+{
+    "name": "otrigg/dev-form-mailer",
+    "description": "A simple Laravel-based api service for handling forms from static web sites.",
+    "keywords": ["recaptcha", "no-captcha", "captcha", "laravel", "laravel5", "form", "static", "website", "service", "api"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Enea Barbetta",
+            "email": "enea.barbetta@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1.3",
+        "anhskohbo/no-captcha": "^3.0",
+        "laravel/framework": "^5.5",
+        "laravel/tinker": "^1.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Otrigg\\Formmailer\\Providers\\FormmailerServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Otrigg\\Formmailer\\": "src/"
+        }
+    }
+}
