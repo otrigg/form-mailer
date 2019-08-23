@@ -1,5 +1,5 @@
 {
-    "name": "otrigg/dev-form-mailer",
+    "name": "otrigg/form-mailer",
     "description": "A simple Laravel-based api service for handling forms from static web sites.",
     "keywords": ["recaptcha", "no-captcha", "captcha", "laravel", "laravel5", "form", "static", "website", "service", "api"],
     "license": "MIT",
