@@ -123,7 +123,7 @@ If you want to use Google reCAPTCHA don't forget to [generate Google reCAPTCHA p
 
 * [**Enea Barbetta**](https://github.com/otrigg) 
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/otrigg/form-mailer/graphs/contributors) who participated in this project.
 
 ## License
 
