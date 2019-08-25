@@ -108,9 +108,12 @@ Customize the rules according to your form fields. Write rules compatible with [
         'name' => 'required|max:255',
         'email' => 'required|email|max:255',
         'message' => 'required|max:1024',
+        'sender' => 'required|email|max:255',
         'g-recaptcha-response' => 'required|captcha',
     ],
 ```
+
+```sender``` refers to the email address that will fill the ```From:``` field. It is **required** by default.
 
 **Warning**: Google reCAPTCHA is set as **required** by default.
 
