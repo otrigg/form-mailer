@@ -70,6 +70,7 @@ return [
         'name' => 'required|max:255',
         'email' => 'required|email|max:255',
         'message' => 'required|max:1024',
+        'sender' => 'required',
         'g-recaptcha-response' => 'required|captcha',
     ],
 
